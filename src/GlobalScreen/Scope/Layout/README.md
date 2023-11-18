@@ -116,3 +116,8 @@ $DIC->globalScreen()->layout()->meta()->addOnloadCode('alert();');
 ```php
 $DIC->globalScreen()->layout()->meta()->addMetaDatum('keywords', 'Learning,Management');
 ```
+
+### How to Add a Button with JS Functions to the Mainbar
+With the ```AbstractModificationProvider``` it is possible to include a button that provides javascript function to the mainbar. This can be useful (for plugins) if you want a button to show a modal popup or to run any other javascript funcionality that needs to be available on any page accessible via mainbar.
+
+...
